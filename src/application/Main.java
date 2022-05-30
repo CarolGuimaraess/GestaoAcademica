@@ -129,7 +129,7 @@ public class Main {
 		System.out.println("Processo cadastrado com sucesso\n");
 		
 		// Histórico
-		System.out.println("\nHistórico:");
+		System.out.println("\nHistórico de Encaminhamento(s):");
 		sistema.adicionaHistorico(new Historico(true, setorDestino));
 		for (Historico y : sistema.getListHistoricos()) {// mostra históricos cadastrados
 			System.out.println(y);
